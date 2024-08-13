@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARSHA Fruit Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header 
+        {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            .image {
+                width: 100%;
+                height: 200px;
+                background-image: url("fruits.jpg");
+                background-size: cover;
+                background-position: center;
+            }
+            h1 {
+                font-size: 2rem;
+                margin: 0;
+            }
+            h2 {
+                font-size: 1.5rem;
+                margin: 0;
+            }
+            p {
+                margin: 0;
+            } 
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        .fruit-item {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+            
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Raghav Fruit Shop</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#fruits">Fruits</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="home">
+            <h2>Welcome to our Fruit Shop</h2>
+            <p>Discover the freshest fruits for your healthy lifestyle!</p>
+        </section>
+        
+        <section id="fruits">
+            <h2>Our Fruits</h2>
+            <div class="fruit-item">
+                <h3>Apples</h3>
+                <p>Fresh, crisp apples from local orchards.</p>
+            </div>
+            <div class="fruit-item">
+                <h3>Bananas</h3>
+                <p>Ripe and ready-to-eat bananas.</p>
+            </div>
+            <div class="fruit-item">
+                <h3>Oranges</h3>
+                <p>Juicy oranges packed with vitamin C.</p>
+            </div>
+            <div clasds="fruit-item">
+                <h3>Mangoes</h3>
+                <p>Mangoes are a tropical fruit with a sweet, fruity flavor.</p>
+        </section>
+        
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are passionate about providing the best quality fruits to our customers.</p>
+            <marquee behavior="Welcome" direction="lifestyle"></marquee>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@fruitshop.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Fresh Fruit Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
